@@ -1,11 +1,5 @@
-a=int(input(""))
-if(a>=0):
-  if(a%2==0):
-    print("Even")
-  else:
-    print("Odd")
+ch=input("")
+if(ch>="a" and ch<="z"):
+  print("alphabets")  
 else:
-  print("invalid")    
-  
- 
-  
+  print("no")  
