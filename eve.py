@@ -1,10 +1,8 @@
-a=int(input("enter the value"))
+a=int(input(""))
 if(a%2==0):
-  print("the value is even")
+  print("Even")
 elif(a%2!=0):
-  print("the value is odd")
+  print("Odd")
 else:
-  print("invalid value")    
+  print("invalid")    
   
-
-
