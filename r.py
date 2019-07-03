@@ -1,10 +1,10 @@
-p=int(input())
-n=p
+r=int(input())
+n=r
 rev=0
-while(p>0):
-  digit=p%10
+while(r>0):
+  digit=r%10
   rev=rev*10+digit
-  p=p//10
+  r=r//10
 if(n==rev):
   print("yes")
 else:
