@@ -1,4 +1,3 @@
-N=int(input(""))
-K=int(input(""))
+N,K=input().split()
 t=N**K
 print(t)
